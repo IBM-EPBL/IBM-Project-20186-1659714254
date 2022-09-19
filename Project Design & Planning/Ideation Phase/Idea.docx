@@ -1,573 +1,0 @@
-From: <Saved by Blink>
-Snapshot-Content-Location: https://kcgcollege0-my.sharepoint.com/:w:/g/personal/19cs106_kcgcollege_com/EeK4nveAfuFNmtd84VyLPnQBr3ok0FBKoKKLx98RLvWP1Q?rtime=a9xGkbqY2kg
-Subject: User class.docx
-Date: Sat, 17 Sep 2022 14:40:36 -0000
-MIME-Version: 1.0
-Content-Type: multipart/related;
-	type="text/html";
-	boundary="----MultipartBoundary--zAuERlvKmVCOj63x0M933dFLsU0NeM3o77OpQpSGUJ----"
-
-
-------MultipartBoundary--zAuERlvKmVCOj63x0M933dFLsU0NeM3o77OpQpSGUJ----
-Content-Type: text/html
-Content-ID: <frame-E3D0E1611907D328D1FEA9AA095620F8@mhtml.blink>
-Content-Transfer-Encoding: binary
-Content-Location: https://kcgcollege0-my.sharepoint.com/:w:/g/personal/19cs106_kcgcollege_com/EeK4nveAfuFNmtd84VyLPnQBr3ok0FBKoKKLx98RLvWP1Q?rtime=a9xGkbqY2kg
-
-<!DOCTYPE html><html lang="en-us" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-8bf51605-9d81-43b2-92f2-99afddead8f9@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-383b3f6d-1b39-4714-846c-4b5ec42afc9f@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-b15de6a1-9f18-422c-aa28-3766f6dc2a63@mhtml.blink" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
-		<meta name="robots" content="noindex">
-		
-		<link rel="shortcut icon" href="https://c1-word-view-15.cdn.office.net/wv/resources/1033/FavIcon_Word.ico">
-		<link rel="preconnect" href="https://inc-word-edit.officeapps.live.com/">
-		<title>User class.docx</title>
-		
-	<link rel="preconnect" href="https://c1h-word-view-15.cdn.office.net/wv/s/h747599FFFE54F564_App_Scripts/word.boot.js" crossorigin="anonymous"></head>
-	<body style="margin: 0; padding: 0; overflow:hidden; -ms-content-zooming: none;">
-	  <div id="WopiDocWACContainer" style="overflow:hidden;"><iframe name="WebApplicationFrame" id="WebApplicationFrame" src="cid:frame-356EB968C3A7CF09C19F1BE2436759AD@mhtml.blink" title="Office Online Frame" width="100%" height="100%" marginwidth="0" marginheight="0" frameborder="0" allowfullscreen="true" allowtransparency="true" allow="microphone https://INC-word-edit.officeapps.live.com; autoplay https://INC-word-edit.officeapps.live.com; camera https://INC-word-edit.officeapps.live.com; clipboard-read https://INC-word-edit.officeapps.live.com; clipboard-write https://INC-word-edit.officeapps.live.com; keyboard-map https://INC-word-edit.officeapps.live.com; display-capture https://INC-word-edit.officeapps.live.com" style="inset: 0px; display: block; position: absolute; background-color: transparent; border: none;"></iframe><form id="office_form" name="office_form" action="https://inc-word-edit.officeapps.live.com/we/wordeditorframe.aspx?ui=en%2DUS&amp;rs=en%2DUS&amp;wopisrc=https%3A%2F%2Fkcgcollege0-my.sharepoint.com%2Fpersonal%2F19cs106_kcgcollege_com%2F_vti_bin%2Fwopi.ashx%2Ffiles%2Ff79eb8e27e804de19ad77ce15c8b3e74&amp;wdenableroaming=1&amp;mscc=0&amp;wdodb=1&amp;hid=1AE165A0-E05D-1000-A5EB-9F69FE84ADA1&amp;wdorigin=Sharing&amp;jsapi=1&amp;jsapiver=v1&amp;newsession=1&amp;corrid=02826333-ba26-4767-bd92-489c521b6363&amp;usid=02826333-ba26-4767-bd92-489c521b6363&amp;sftc=1&amp;cac=1&amp;mtf=1&amp;sfp=1&amp;instantedit=1&amp;wopicomplete=1&amp;wdredirectionreason=Unified_SingleFlush&amp;rct=Medium&amp;ctp=LeastProtected" target="WebApplicationFrame" method="POST"></form></div>
-	  <div id="ShareDialog"></div>
-	  
-	   
-	   <link rel="preconnect" href="https://res-1.cdn.office.net/" crossorigin="">
-	  
-	
-   
-
-</body></html>
-------MultipartBoundary--zAuERlvKmVCOj63x0M933dFLsU0NeM3o77OpQpSGUJ----
-Content-Type: text/css
-Content-Transfer-Encoding: binary
-Content-Location: cid:css-8bf51605-9d81-43b2-92f2-99afddead8f9@mhtml.blink
-
-@charset "utf-8";
-
-@keyframes css-0 { 
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-@keyframes css-1 { 
-  0% { opacity: 1; }
-  100% { opacity: 0; visibility: hidden; }
-}
-
-@keyframes css-2 { 
-  0% { transform: translate3d(-10px, 0px, 0px); pointer-events: none; }
-  100% { transform: translate3d(0px, 0px, 0px); pointer-events: auto; }
-}
-
-@keyframes css-3 { 
-  0% { transform: translate3d(-20px, 0px, 0px); pointer-events: none; }
-  100% { transform: translate3d(0px, 0px, 0px); pointer-events: auto; }
-}
-
-@keyframes css-4 { 
-  0% { transform: translate3d(-40px, 0px, 0px); pointer-events: none; }
-  100% { transform: translate3d(0px, 0px, 0px); pointer-events: auto; }
-}
-
-@keyframes css-5 { 
-  0% { transform: translate3d(-400px, 0px, 0px); pointer-events: none; }
-  100% { transform: translate3d(0px, 0px, 0px); pointer-events: auto; }
-}
-
-@keyframes css-6 { 
-  0% { transform: translate3d(10px, 0px, 0px); pointer-events: none; }
-  100% { transform: translate3d(0px, 0px, 0px); pointer-events: auto; }
-}
-
-@keyframes css-7 { 
-  0% { transform: translate3d(20px, 0px, 0px); pointer-events: none; }
-  100% { transform: translate3d(0px, 0px, 0px); pointer-events: auto; }
-}
-
-@keyframes css-8 { 
-  0% { transform: translate3d(40px, 0px, 0px); pointer-events: none; }
-  100% { transform: translate3d(0px, 0px, 0px); pointer-events: auto; }
-}
-
-@keyframes css-9 { 
-  0% { transform: translate3d(400px, 0px, 0px); pointer-events: none; }
-  100% { transform: translate3d(0px, 0px, 0px); pointer-events: auto; }
-}
-
-@keyframes css-10 { 
-  0% { transform: translate3d(0px, 10px, 0px); pointer-events: none; }
-  100% { transform: translate3d(0px, 0px, 0px); pointer-events: auto; }
-}
-
-@keyframes css-11 { 
-  0% { transform: translate3d(0px, 20px, 0px); pointer-events: none; }
-  100% { transform: translate3d(0px, 0px, 0px); pointer-events: auto; }
-}
-
-@keyframes css-12 { 
-  0% { transform: translate3d(0px, -10px, 0px); pointer-events: none; }
-  100% { transform: translate3d(0px, 0px, 0px); pointer-events: auto; }
-}
-
-@keyframes css-13 { 
-  0% { transform: translate3d(0px, -20px, 0px); pointer-events: none; }
-  100% { transform: translate3d(0px, 0px, 0px); pointer-events: auto; }
-}
-
-@keyframes css-14 { 
-  0% { transform: translate3d(0px, 0px, 0px); }
-  100% { transform: translate3d(10px, 0px, 0px); }
-}
-
-@keyframes css-15 { 
-  0% { transform: translate3d(0px, 0px, 0px); }
-  100% { transform: translate3d(20px, 0px, 0px); }
-}
-
-@keyframes css-16 { 
-  0% { transform: translate3d(0px, 0px, 0px); }
-  100% { transform: translate3d(40px, 0px, 0px); }
-}
-
-@keyframes css-17 { 
-  0% { transform: translate3d(0px, 0px, 0px); }
-  100% { transform: translate3d(400px, 0px, 0px); }
-}
-
-@keyframes css-18 { 
-  0% { transform: translate3d(0px, 0px, 0px); }
-  100% { transform: translate3d(-10px, 0px, 0px); }
-}
-
-@keyframes css-19 { 
-  0% { transform: translate3d(0px, 0px, 0px); }
-  100% { transform: translate3d(-20px, 0px, 0px); }
-}
-
-@keyframes css-20 { 
-  0% { transform: translate3d(0px, 0px, 0px); }
-  100% { transform: translate3d(-40px, 0px, 0px); }
-}
-
-@keyframes css-21 { 
-  0% { transform: translate3d(0px, 0px, 0px); }
-  100% { transform: translate3d(-400px, 0px, 0px); }
-}
-
-@keyframes css-22 { 
-  0% { transform: translate3d(0px, 0px, 0px); }
-  100% { transform: translate3d(0px, -10px, 0px); }
-}
-
-@keyframes css-23 { 
-  0% { transform: translate3d(0px, 0px, 0px); }
-  100% { transform: translate3d(0px, -20px, 0px); }
-}
-
-@keyframes css-24 { 
-  0% { transform: translate3d(0px, 0px, 0px); }
-  100% { transform: translate3d(0px, 10px, 0px); }
-}
-
-@keyframes css-25 { 
-  0% { transform: translate3d(0px, 0px, 0px); }
-  100% { transform: translate3d(0px, 20px, 0px); }
-}
-
-@keyframes css-26 { 
-  0% { transform: scale3d(0.98, 0.98, 1); }
-  100% { transform: scale3d(1, 1, 1); }
-}
-
-@keyframes css-27 { 
-  0% { transform: scale3d(1, 1, 1); }
-  100% { transform: scale3d(0.98, 0.98, 1); }
-}
-
-@keyframes css-28 { 
-  0% { transform: scale3d(1.03, 1.03, 1); }
-  100% { transform: scale3d(1, 1, 1); }
-}
-
-@keyframes css-29 { 
-  0% { transform: scale3d(1, 1, 1); }
-  100% { transform: scale3d(1.03, 1.03, 1); }
-}
-
-@keyframes css-30 { 
-  0% { transform: rotateZ(0deg); }
-  100% { transform: rotateZ(90deg); }
-}
-
-@keyframes css-31 { 
-  0% { transform: rotateZ(0deg); }
-  100% { transform: rotateZ(-90deg); }
-}
-------MultipartBoundary--zAuERlvKmVCOj63x0M933dFLsU0NeM3o77OpQpSGUJ----
-Content-Type: text/css
-Content-Transfer-Encoding: binary
-Content-Location: cid:css-383b3f6d-1b39-4714-846c-4b5ec42afc9f@mhtml.blink
-
-@charset "utf-8";
-
-html { height: 100%; }
-
-body { height: 100%; }
-------MultipartBoundary--zAuERlvKmVCOj63x0M933dFLsU0NeM3o77OpQpSGUJ----
-Content-Type: text/css
-Content-Transfer-Encoding: binary
-Content-Location: cid:css-b15de6a1-9f18-422c-aa28-3766f6dc2a63@mhtml.blink
-
-@charset "utf-8";
-
-#upsellBannerForPhone button { min-width: 1px; height: 32px; margin: 0px; padding: 0px; color: rgb(0, 0, 0); border: 0px; outline: 0px; }
-
-#upsellBannerForPhone button p { margin: 0px; font-size: 16px; }
-
-#upsellBannerForPad, #upsellBannerForPhone { position: absolute; z-index: 2000; background-color: rgb(255, 255, 255); padding-top: 10px; box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 5px 0px; }
-
-#upsellBannerForPad iframe, #upsellBannerForPhone iframe { width: 252px; height: 192px; margin: 0px; padding: 0px 28px 20px; border: 0px; }
-
-[dir="rtl"] #upsellBannerForPad iframe, [dir="rtl"] #upsellBannerForPhone iframe { padding: 0px 28px 20px; }
-
-#upsellBannerForPad button, #upsellBannerForPhone button { min-width: 1px; height: 32px; margin: 0px; padding: 0px; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); border: 0px; outline: 0px; }
-
-#upsellBannerForPad button p, #upsellBannerForPhone button p { margin: 0px; font-size: 16px; }
-
-#upsellBannerForPad { width: 310px; height: 254px; top: calc(50vh - 127px); }
-
-[dir="ltr"] #upsellBannerForPad { left: calc(50vw - 154px); }
-
-[dir="rtl"] #upsellBannerForPad { right: calc(50vw - 154px); }
-
-[dir="ltr"] #upsellBannerForPad button { margin-left: 90%; }
-
-[dir="rtl"] #upsellBannerForPad button { margin-right: 90%; }
-
-#upsellBannerForPhone { width: 100%; bottom: 0px; }
-
-[dir="ltr"] #upsellBannerForPhone button { margin-left: 91vw; }
-
-[dir="rtl"] #upsellBannerForPhone button { margin-right: 91vw; }
-
-#upsellOverlay { width: 100%; height: 100%; position: absolute; z-index: 1999; }
-
-.od-Wac-Share-Dialog { max-width: 500px; max-height: 700px; }
-
-.od-Wac-Share-Dialog .ms-Dialog-inner { padding: 0px; }
-
-.od-Wac-Share-Dialog .ms-Dialog-header { display: none; }
-
-.od-Wac-Share-Container { max-width: 500px; max-height: 700px; min-width: 320px; }
-
-.od-Wac-Share-Iframe { border: none; }
-
-.odc-Wac-Share-Spinner { display: flex; align-items: center; justify-content: center; height: 100%; }
-------MultipartBoundary--zAuERlvKmVCOj63x0M933dFLsU0NeM3o77OpQpSGUJ----
-Content-Type: text/html
-Content-ID: <frame-356EB968C3A7CF09C19F1BE2436759AD@mhtml.blink>
-Content-Transfer-Encoding: binary
-Content-Location: https://inc-word-edit.officeapps.live.com/we/wordeditorframe.aspx?ui=en%2DUS&rs=en%2DUS&wopisrc=https%3A%2F%2Fkcgcollege0-my.sharepoint.com%2Fpersonal%2F19cs106_kcgcollege_com%2F_vti_bin%2Fwopi.ashx%2Ffiles%2Ff79eb8e27e804de19ad77ce15c8b3e74&wdenableroaming=1&mscc=0&wdodb=1&hid=1AE165A0-E05D-1000-A5EB-9F69FE84ADA1&wdorigin=Sharing&jsapi=1&jsapiver=v1&newsession=1&corrid=02826333-ba26-4767-bd92-489c521b6363&usid=02826333-ba26-4767-bd92-489c521b6363&sftc=1&cac=1&mtf=1&sfp=1&instantedit=1&wopicomplete=1&wdredirectionreason=Unified_SingleFlush&rct=Medium&ctp=LeastProtected
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-2b7aca16-537f-4cc2-8f2b-164177a9de05@mhtml.blink" /><link rel="stylesheet" href="https://c1-word-edit-15.cdn.office.net/we/s/161571441002_resources/mWordAView.css"><link rel="stylesheet" href="https://c1-word-edit-15.cdn.office.net/we/s/161571441002_resources/1033/mwordA.image.css"><meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0"><title>
-
-</title></head><body id="MainApp" marginwidth="0" marginheight="0"><div id="m_liveRegion" class="liveregion" role="presentation" aria-live="assertive" aria-atomic="true">Toolbar, User class.docx. TAB to switch controls. CTRL SHIFT to close.</div><div id="FastBootContainer" style="display: none;"></div><div id="m_uiLayer" class="layer"><div id="m_sliderLayer" class="layer" style="visibility: visible;"><div id="m_slider" style="display:none;z-index:6"><div id="m_sliderTint"><div class="clip23x45"><img class="scrollbar"></div></div></div><div id="m_originalPosition" style="display:none;z-index:6"></div><div id="m_pageInfo" style="display:none;z-index:6"></div></div><div id="m_toolbarLayer" class="layer"><div id="m_toolbarMenu" class="menu" style="display:none;z-index:5"><div class="icon clip40x40"><img id="m_hostUiButton" class="hostui" src="https://c1-word-edit-15.cdn.office.net/we/s/161571441002_resources/1033/mwordA.png"></div><div class="icon iconN clip40x40"><img id="m_oicButton" class="openInClient" src="https://c1-word-edit-15.cdn.office.net/we/s/161571441002_resources/1033/mwordA.png"></div><div class="icon iconN clip40x40"><img id="m_fontSizeButton" class="fontSize3" src="https://c1-word-edit-15.cdn.office.net/we/s/161571441002_resources/1033/mwordA.png"></div></div><div id="m_fontSizeMenu" class="menu portrait" style="display:none;z-index:5"><div class="icon"><div class="clip40x40"><img id="m_size5" class="fontSize5" src="https://c1-word-edit-15.cdn.office.net/we/s/161571441002_resources/1033/mwordA.png"></div></div><div class="icon iconN"><div class="clip40x40"><img id="m_size4" class="fontSize4" src="https://c1-word-edit-15.cdn.office.net/we/s/161571441002_resources/1033/mwordA.png"></div></div><div class="icon iconN"><div class="clip40x40"><img id="m_size3" class="fontSize3Selected" src="https://c1-word-edit-15.cdn.office.net/we/s/161571441002_resources/1033/mwordA.png"></div></div><div class="icon iconN"><div class="clip40x40"><img id="m_size2" class="fontSize2" src="https://c1-word-edit-15.cdn.office.net/we/s/161571441002_resources/1033/mwordA.png"></div></div><div class="icon iconN"><div class="clip40x40"><img id="m_size1" class="fontSize1" src="https://c1-word-edit-15.cdn.office.net/we/s/161571441002_resources/1033/mwordA.png"></div></div></div><div id="m_indicator" style="display:none;z-index:5"><div class="clip19x40"><img id="m_indicatorImage" class="toolbarIndL" src="https://c1-word-edit-15.cdn.office.net/we/s/161571441002_resources/1033/mwordA.png"></div></div><div id="m_newToolbar" class="newToolbar newToolbarPortrait" style="z-index: 9; top: 0px; opacity: 1;"><div id="m_appIconContainer" class="appIconContainer clip24x24"><img id="m_appIcon" class="wordLogo24" src="https://c1-word-edit-15.cdn.office.net/we/s/161571441002_resources/1033/mwordA.png"></div><div id="m_fileNameContainer" class="fileNameContainer"><div id="m_fileNameDiv" class="fileNameDiv" tabindex="-1" aria-readonly="true" role="textbox">User class.docx</div></div><div id="m_newFontSizeBtnContainer" class="newFontSizeBtnContainer clip24x24" tabindex="-1" aria-label="Font size button. Touch only." role="button"><img id="m_newFontSizeButton" class="changeFontSize24" src="https://c1-word-edit-15.cdn.office.net/we/s/161571441002_resources/1033/mwordA.png"></div></div></div><div id="m_bizbar" style="display:none;z-index:11"><div id="m_bizbarText"></div><div class="button refresh"><div class="clip16x16"><img id="m_bizbarRefreshBtn" class="refreshIcon" src="https://c1-word-edit-15.cdn.office.net/we/s/161571441002_resources/1033/mwordA.png"></div><img src="https://c1-word-edit-15.cdn.office.net/we/s/161571441002_resources/spiral.gif" id="m_bizbarRefreshingIcon" width="16" height="16" style="position:absolute;margin-top:-16px"></div><div class="button dismiss"><div class="clip16x16"><img id="m_bizbarDismissBtn" class="dismissIcon" src="https://c1-word-edit-15.cdn.office.net/we/s/161571441002_resources/1033/mwordA.png"></div></div></div><div id="m_msgDialogLayer" class="layer" style="z-index:4;display:none;"><div class="dialogVAlign"><div id="m_msgDialog"><div id="m_msgTextArea" tabindex="-1" aria-readonly="true" role="textbox" style="overflow-y: auto; direction: ltr; display: none;"><div></div></div><div id="m_msgSessionIdArea" style="overflow-y: auto; direction: ltr; display: none;"><div></div></div><div id="m_dialogButtons"></div></div></div></div><div id="m_textViewLayer" class="layer" style="z-index: 2; visibility: visible;"><div id="m_content" style="font-size: 100%; overflow-y: auto; direction: ltr; right: 20px;"><div><div id="m_topBuffer" style="height: 200px; display: none;"><img src="https://c1-word-edit-15.cdn.office.net/we/s/161571441002_resources/spiral.gif" class="loading" style="top: calc(50% + 20px);"></div><div id="pc1"><div style="height: 0px;"></div><div class="pageNum">1 / 1</div><div id="p1" name="p1"><b><div style="direction:ltr;margin-top:5px"><b><span style="direction:ltr;">Monthly Budgeting <br></span></b></div></b><b><div style="direction:ltr;margin-top:5px"><span style="direction:ltr;color:#001E00">You will get a performance-optimized expense tracking android app. All </span><span style="direction:ltr;color:#001E00">processes from onboarding to backing up user records are done. It can </span><span style="direction:ltr;color:#001E00">also track usersâ€™ monthly budgets. <br></span></div></b><b><div style="direction:ltr;margin-top:5px"><span style="direction:ltr;color:#001E00"> <br></span></div></b><b><div style="direction:ltr;margin-top:5px"><b><span style="direction:ltr;">Money Management</span></b><span style="direction:ltr;"> <br></span></div></b><div style="direction:ltr;margin-top:5px"><span style="direction:ltr;">Itâ€™s easy to add expenses to keep records, add income, and update or delete <span style="direction:ltr;">any income or expenses. This system offers a graphical representation in the <span style="direction:ltr;">form of charts to help users understand and get a general sense of how money <span style="direction:ltr;">can be managed. As this system helps manage money, when the expenses are <span style="direction:ltr;">beyond the certain set limitation or budget for the month, the user will be <span style="direction:ltr;">notified with a warning. <br></span></span></span></span></span></span></div><b><div style="direction:ltr;margin-top:5px"><b><span style="direction:ltr;">Everyday expense tracker</span></b><span style="direction:ltr;"> <br></span></div></b><div style="direction:ltr;margin-top:5px"><span style="direction:ltr;color:#212529">Keep your daily money spending with this pretty simple personal daily expense </span><span style="direction:ltr;color:#212529">tracker. Using this printable template, you can learn to be more conscious </span><span style="direction:ltr;color:#212529">about yourPP budget. This simple tracker is great for this purpose. In order to </span><span style="direction:ltr;color:#212529">write down where you spend your money, you need to categorize your </span><span style="direction:ltr;color:#212529">expenses. An understandable category and short description are all you need. </span><span style="direction:ltr;color:#212529">You can also track your spending by choosing the types of stores you shop at. </span><span style="direction:ltr;color:#212529">Fill in the amount of money you spend on it. For each day or week, record the </span><span style="direction:ltr;color:#212529">date you are tracking and the actual money you spent. <br></span></div><div style="direction:ltr;margin-top:5px"><span style="direction:ltr;color:#212529">And the last step is to tick the box to see whether you pay cash, credit, or </span><span style="direction:ltr;color:#212529">debit. Sections need and want will help you understand whether you really </span><span style="direction:ltr;color:#212529">need this thing or is it just a fleeting weakness <br></span></div><b><div style="direction:ltr;margin-top:5px"><b><span style="direction:ltr;color:#212121">Cross-platform &nbsp;<br></span></b></div></b><div style="direction:ltr;margin-top:5px"><span style="direction:ltr;">Cross-platform or multiplatform software is a type of <span style="direction:ltr;">application/program/software that works on various operating systems or <span style="direction:ltr;">devices, which are often called platforms. A platform means an operating <span style="direction:ltr;">system such as Windows, Mac OS, Android, or iOS. <br></span></span></span></span></div><b><div style="direction:ltr;margin-top:5px"><b><span style="direction:ltr;color:#212121"> <br></span></b></div></b><b><div style="direction:ltr;margin-top:5px"><b><span style="direction:ltr;color:#212121"> <br></span></b></div></b><div style="direction:ltr;margin-top:5px"><span style="direction:ltr;"> <br></span></div></div><hr class="pageHr"></div><div id="m_endBuffer" style="height: 200px; display: none;"><img src="https://c1-word-edit-15.cdn.office.net/we/s/161571441002_resources/spiral.gif" class="loading"></div></div></div></div><div id="m_loadingLayer" class="layer" style="z-index: 1; visibility: visible; display: none;"><img src="https://c1-word-edit-15.cdn.office.net/we/s/161571441002_resources/spiral.gif" id="m_loadingImage" class="loading"></div></div> 
-</body></html>
-------MultipartBoundary--zAuERlvKmVCOj63x0M933dFLsU0NeM3o77OpQpSGUJ----
-Content-Type: text/css
-Content-Transfer-Encoding: binary
-Content-Location: cid:css-2b7aca16-537f-4cc2-8f2b-164177a9de05@mhtml.blink
-
-@charset "utf-8";
-
-body { font-family: "Segoe UI", Helvetica, "S60 Sans", "BBAlpha Sans", Droid, Tahoma, Arial; }
-------MultipartBoundary--zAuERlvKmVCOj63x0M933dFLsU0NeM3o77OpQpSGUJ----
-Content-Type: text/css
-Content-Transfer-Encoding: binary
-Content-Location: https://c1-word-edit-15.cdn.office.net/we/s/161571441002_resources/mWordAView.css
-
-@charset "utf-8";
-
-html, body { margin: 0px; border: 0px; padding: 0px; background-color: white; direction: ltr; text-size-adjust: none; }
-
-ul { list-style-type: none; padding: 0px; margin: 0px; border: 0px; }
-
-table { font-size: inherit; border: 1px solid black; border-collapse: collapse; }
-
-table td, th { padding: 0px 10px; }
-
-.FootnoteEndnote { color: rgb(0, 0, 0); opacity: 0.8; padding: 0px 5% 0px 10%; }
-
-.FootnoteEndnoteHr { background-color: rgb(0, 0, 0); border: none; color: rgb(0, 0, 0); height: 1.35px; opacity: 0.8; width: 90%; }
-
-.icon { float: right; position: static; width: 40px; height: 40px; }
-
-.iconN { margin: 0px 10px 0px 0px; }
-
-.layer { position: absolute; width: 100%; height: 100%; }
-
-.liveregion { left: 0px; top: -10px; width: 0px; height: 0px; overflow: hidden; z-index: -1; }
-
-.loading { position: relative; top: 50%; left: 50%; margin: -12px 0px 0px -12px; }
-
-.menu { position: absolute; top: 50%; left: 50%; border: 3px solid rgb(25, 71, 138); box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px; background-color: rgb(255, 255, 255); }
-
-.pageHr { background-color: rgb(0, 0, 0); border: none; color: rgb(0, 0, 0); height: 2.7px; opacity: 0.2; }
-
-.pageNum { color: rgb(0, 0, 0); font-size: medium; margin: 10px 0px; opacity: 0.2; text-align: right; }
-
-div .portrait { width: 40px; height: 240px; margin: -123px 0px 0px -23px; }
-
-div .landscape { width: 240px; height: 40px; margin: -23px 0px 0px -123px; }
-
-div .portrait .iconN { margin: 10px 0px 0px; }
-
-#m_sliderLayer { text-align: center; }
-
-#m_slider { position: absolute; top: 0px; right: 0px; width: 26px; height: 45px; }
-
-#m_sliderTint { width: 23px; height: 45px; background-color: rgba(226, 226, 226, 0.89); }
-
-#m_msgDialog { background-color: white; border: 2px solid rgb(25, 71, 138); box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px; display: inline-block; position: relative; width: 300px; }
-
-#m_msgDialog .dialogBtn { border: 1px solid rgb(54, 119, 190); color: rgb(54, 119, 190); font-family: Arial; font-size: 10pt; display: inline-block; height: 22px; line-height: 22px; margin: 0px 5px 12px; overflow: hidden; width: 120px; }
-
-#m_msgDialogLayer { display: table; text-align: center; }
-
-#m_msgDialogLayer .dialogVAlign { display: table-cell; position: relative; vertical-align: middle; }
-
-#m_msgTextArea, #m_msgSessionIdArea { color: rgb(153, 153, 153); font-family: Arial; margin: 12px 12px 24px; max-height: 150px; overflow: hidden; padding: 0px; text-align: left; }
-
-#m_msgTextArea { font-size: 12pt; }
-
-#m_msgSessionIdArea { font-size: 9pt; }
-
-#m_originalPosition { position: absolute; top: 0px; right: 0px; width: 5px; height: 45px; background-color: rgb(102, 102, 102); }
-
-#m_pageInfo { display: inline-block; position: relative; padding: 0px 10px; text-align: center; height: 45px; line-height: 45px; background-color: rgba(226, 226, 226, 0.89); color: black; }
-
-#m_toolbarMenu { width: 140px; height: 40px; margin: -23px 0px 0px -73px; }
-
-#m_indicator { width: 25px; height: 45px; position: absolute; top: 50%; left: 0px; margin: -23px 0px 0px; }
-
-#m_content { left: 20px; right: 30px; height: 100%; position: absolute; overflow-wrap: break-word; }
-
-::-webkit-scrollbar { display: none; }
-
-::-webkit-scrollbar-thumb { display: none; }
-
-#m_bizbar { background-color: rgb(252, 247, 182); border-top: 1px solid rgb(215, 216, 137); border-bottom: 1px solid rgb(215, 216, 137); box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 4px; min-height: 39px; position: absolute; white-space: nowrap; width: 100%; }
-
-#m_bizbar .button { display: inline-block; height: 28px; padding: 6px 0px 0px 6px; position: absolute; top: 7px; width: 28px; }
-
-#m_bizbar .dismiss { right: 2px; }
-
-#m_bizbar .refresh { right: 35px; }
-
-#m_bizbarText { color: rgb(102, 102, 102); font-size: 12pt; margin: 12px 69px 15px 10px; position: relative; white-space: normal; }
-
-.newToolbar { position: absolute; width: 100%; border: none; background-color: rgb(0, 32, 128); color: white; }
-
-.newToolbarLandscape { height: 48px; }
-
-.newToolbarPortrait { height: 40px; }
-
-.appIconContainer { margin: 8px; float: left; }
-
-.fileNameContainer { position: absolute; margin: 8px 0px; width: 100%; box-sizing: border-box; font-size: 14px; }
-
-.newToolbarLandscape .fileNameContainer { padding: 0px 96px 0px 48px; line-height: 32px; }
-
-.newToolbarPortrait .fileNameContainer { padding: 0px 80px 0px 40px; line-height: 24px; }
-
-.newFontSizeBtnContainer { margin: 8px 8px 8px 0px; float: right; }
-
-.newOicBtnContainer { margin: 8px 8px 8px 0px; float: right; }
-
-.fileNameDiv { text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
-
-#wildFireBannerContainer { width: 100%; background-color: rgb(243, 243, 243); z-index: 10; position: relative; height: 11%; border-bottom: 1px solid rgb(179, 179, 179); border-top: 1px solid rgb(77, 77, 77); display: table; top: 0px; max-height: 69px; }
-
-#wildFireBannerContainer.wildFireIOS { font-family: -apple-system, "Helvetica Neue", "Lucida Grande"; }
-
-#wildFireBannerContainer.wildFireAndroid { font-family: "Segoe UI"; }
-
-.wildFireChildContainer { display: table-cell; vertical-align: middle; padding: 1.5% 0px 1.5% 0.5%; }
-
-.wildFireBannerLink { color: rgb(43, 87, 154); padding: 0px 2.8% 0px 0px; text-decoration: none; text-align: center; }
-
-.wildFireBannerLink.wildFireAndroid { font-size: 16px; }
-
-.wildFireBannerLink.wildFireIOS { font-size: 16px; }
-
-.wildFireBannerLink.wildFireSmallScreen { font-size: 13px; }
-
-.wildFireAppIconContainer.wildFireIOS { background-color: rgb(47, 95, 163); border-radius: 10px; border: 7px solid rgb(47, 95, 163); padding: 0px; }
-
-.wildFireAppIconContainer.wildFireAndroid { background-color: rgb(47, 95, 163); border: 5px solid rgb(47, 95, 163); padding: 0px; }
-
-.wildFireDismissIconContainer { padding: 0px 0.75% 0px 2.8%; }
-
-.wildFireTextContainer { padding: 0px 0px 0px 2%; color: rgb(0, 0, 0); }
-
-.wildFireHeader.wildFireIOS { font-size: 21px; }
-
-.wildFireHeader.wildFireIOS.wildFireSmallScreen { font-size: 17px; }
-
-.wildFireHeader.wildFireAndroid { font-size: 17px; }
-
-.wildFireHeader.wildFireAndroid.wildFireSmallScreen { font-size: 13px; }
-
-.wildFireSubHeader { font-size: 14px; color: rgb(118, 118, 118); }
-
-.wildFireSubHeader.wildFireIOS { font-size: 16px; }
-
-.wildFireSubHeader.wildFireSmallScreen { font-size: 12px; }
-
-@media print {
-  .disablePrintAndDownload { display: none; }
-}
-------MultipartBoundary--zAuERlvKmVCOj63x0M933dFLsU0NeM3o77OpQpSGUJ----
-Content-Type: text/css
-Content-Transfer-Encoding: binary
-Content-Location: https://c1-word-edit-15.cdn.office.net/we/s/161571441002_resources/1033/mwordA.image.css
-
-@charset "utf-8";
-
-.clip16x16, .clip19x40, .clip20x20, .clip23x45, .clip24x24, .clip32x32, .clip40x40, .clip48x48 { position: relative; overflow: hidden; }
-
-.clip16x16 { width: 16px; height: 16px; }
-
-.clip19x40 { width: 19px; height: 40px; }
-
-.clip20x20 { width: 20px; height: 20px; }
-
-.clip23x45 { width: 23px; height: 45px; }
-
-.clip24x24 { width: 24px; height: 24px; }
-
-.clip32x32 { width: 32px; height: 32px; }
-
-.clip40x40 { width: 40px; height: 40px; }
-
-.clip48x48 { width: 48px; height: 48px; }
-
-.clip16x16 img, .clip16x16 input, .clip19x40 img, .clip19x40 input, .clip20x20 img, .clip20x20 input, .clip23x45 img, .clip23x45 input, .clip24x24 img, .clip24x24 input, .clip32x32 img, .clip32x32 input, .clip40x40 img, .clip40x40 input, .clip48x48 img, .clip48x48 input { position: absolute; margin: 0px; padding: 0px; width: auto; height: auto; }
-
-.officeLogoTile { top: -1px; left: -1px; }
-
-.scrollbar { top: -51px; left: -1px; }
-
-.fontSize1Selected { top: -1px; left: -51px; }
-
-.fontSize2Selected { top: -51px; left: -26px; }
-
-.fontSize3Selected { top: -1px; left: -93px; }
-
-.fontSize4Selected { top: -43px; left: -68px; }
-
-.fontSize5Selected { top: -98px; left: -1px; }
-
-.toolbarIndL { top: -93px; left: -43px; }
-
-.openInClient { top: -85px; left: -68px; }
-
-.openInClientWhiteIcon { top: -1px; left: -135px; }
-
-.openInClientInactive { top: -43px; left: -110px; }
-
-.changeFontSizeIcon { top: -85px; left: -110px; }
-
-.wordLogo { top: -140px; left: -1px; }
-
-.toolbarIndR { top: -135px; left: -43px; }
-
-.hostui { top: -127px; left: -64px; }
-
-.fontSize5 { top: -127px; left: -106px; }
-
-.fontSize4 { top: -1px; left: -177px; }
-
-.fontSize3 { top: -43px; left: -152px; }
-
-.fontSize2 { top: -85px; left: -152px; }
-
-.fontSize1 { top: -127px; left: -148px; }
-
-.wordLogo32 { top: -182px; left: -1px; }
-
-.changeFontSize32 { top: -182px; left: -35px; }
-
-.openInClientWhite32 { top: -169px; left: -69px; }
-
-.wordLogo24 { top: -169px; left: -103px; }
-
-.changeFontSize24 { top: -169px; left: -129px; }
-
-.openInClientWhite24 { top: -127px; left: -190px; }
-
-.closePaneGlyph { top: -43px; left: -194px; }
-
-.refreshIcon { top: -65px; left: -194px; }
-
-.dismissIcon { top: -83px; left: -194px; }
-------MultipartBoundary--zAuERlvKmVCOj63x0M933dFLsU0NeM3o77OpQpSGUJ----
-Content-Type: image/png
-Content-Transfer-Encoding: binary
-Content-Location: https://c1-word-edit-15.cdn.office.net/we/s/161571441002_resources/1033/mwordA.png
-
-‰PNG
-
-   IHDR   Ú   ×   |ƒO  ¦IDATx^íxÕÕ†÷E@4	¹ß!€D‚(ZkŠ(«U# ­ÆR¢ğ‚blEˆ5¥ÅpG.¡*ˆ‡JD…“p'A."r
--áV@T\ÿZ‡=ÏÎx29—Éœœ³ŞçYÏœ›hOóæ[{Í0[XÁ0Ã0Ìó—]š>ìRWñ`¬Ç°o"9ÿ®H¡Ã0Ìkujõ~¹î%{ÿTçRQûxú²šğd­0èÒİÑgfŠ½gf‰ü33Dïãù"^øa  ıÂ…ïà±¦|‰É­[7yÜuŠÇÖ«¯×­¯Ô­#Q¶L”íÙÚ5aÊ6kşı(Û4¡jŠ(>=U<óßÉ¦´cX² ÁãÜ˜—-?..~ê•—çO¹²L¼òrÈ½¢.üe{ãòÚ0¦îe0
-eûcKày”í)L·gãjÀé	â'ëÔ±÷Ôx‘*Ó.7VÓùñÇÕ$#b^¶™	qYîø+»ã¯„iqWÀT”mÊ6e‡²ıùò:ğÊ–…éö
-÷¥Êvr¬¨TxCC´±'Y-íf< ÔFŠXâí«®êı·úõ÷æ×O€™	ñ0#!Ş’²åaM¦t»âÓíU”íe”íEL·ãÙ¢ÒõŸ1âøñÑ1"'Ù#X½äã®(V9HdÂ¥‹XÀ“˜˜<'1±xÎÕWÃ;W]»ª>ÌFÙf‘lXÓãã€Òd›"Óm<ÊöWJ7”-Óm4
-wìePıçeQ b^“aGÉ’²uÁçÿ‰É
-âZÄÏ¿¦a¾çšğ~â5ğ^b"Ì¹:ŞEá0İP¶ú ÓeSé65®L¦VÓíMN”ü;Óp‰¨‡%Ó§J6X¾—ŒŠhga£&Y6hx|AÃFğAƒF€ÂÁû(Ü<nn"É¦Òd›¥µ’”nqÆt£Vò²MGuA %b–L'ÛÈÑŸb-ZÄÜ°Ù¦7…Eš
-ûdû{ƒ†à!Ù´t#Ùté6Ë˜nW\¾eËW7Y ‡ÿà‚@KÄ,YÌ­É–6m™ûi“ğq“æ°¤q3X,eûe£t#ÙæS+‰õ¥ÛÕÿ›n3ë'GÙò§ÇÅ¥
-ßvA %–,YÖ¤ÕñeM[ÂÒ¦-à)ÛÅt#ÙTºÍ7¤ÊVğvıú~IuA %–,YŞ¼55k^’KK·téF²-ğµ’6y¤àÉkQ	öpA %ÂÃ’uéÒ%o¼q·pš-®…âæmP¶ÖPˆÂ-“²ié¶X¦[A£F½E€ì{Ğ–`è$ƒ~@°Ü,YğĞ÷‡U&¿Ë4á$«Z\$[	ÊFéF²yµV’Ò­qsL¶fY"öÜï‚@K,š%+§êÔ©SKò;Ì”²y„“¬iÙV·¼V’l-Ú@1ÊFéæUéFÂ¥Š Ø}­*ú!.J×®][SšéR-“%²+¿¨¤l@ßmRfÊŸ 
-ûw¿®u¬mu=ÊÖ´t+ÖÒMÊ&‚ä«^.´lÿ!–IAı»ˆ@äE¹|ìÁ*ó÷,UF‚²d
-J1G $›–nmf¦^¼°Ê¶¶í°¶MGŸlkH6-İH69(Aòå.´ªà‡ØC…¢åÄğhi"‚îÚ­+dº¥SYûo¤÷¤tn–LAŒÿ?’tEèóRÖĞY“ÔÖ\ßÖ^{¬kİ…ÓZI•n"HvŞá‚@ËîßrXi²Ê+j9J³4ÙâôÔÿ ñ,RĞC‚²dB“*‡¾7?¦´@R1l?«;ıÖtø¬i×(İÖµé`J7$_Üî‚@ËŞQ¯ˆ~ İúT`F¶4Æ¡‰h˜¨‰Æ’©$¢ïÒÏpÄS‘ ²ÔZ-\¢­ºñ—°ú†°ºãÏaMûî°öúL·N˜ní`­”-Úm.´lş-†rëŞ+#I>'D“²ƒ¿¢¤Õ§l35I4–L%—ÿ2Ori}+å,“¢e„=ÑVŞÔVu¹V%ß¾tKºÓí&X{]2ÈAITˆ&Ó*Í
-åZšQ/®Kpfb^²}ô¥2®?øŠuj¤¢Ö+Óªk»h+né+»õ…•)¿†U7ş¦Û˜n·cºİ‚­dL·Õ^4ÃšÌ¸ØÍÀJÑÚ0Î!ÑÊ¨ü¦±OÓc%¤”D‹uÉ(™¬NôSrQ[v%”a@.ÑJn{VtVÜœ+»öÆtû¬ê|¦[*¦Û­8(¹ÉÑbJ×ŠFÉ$•ö¾Là2]KéUk»•Ìü©g Ÿ1òI2JÆ°ŠV|G”üì1Xqëo`Å-ı`åM\L·ä^˜n=`u‡ÛY4&%³N+‹_Znkx­Ó	këXÜc§>%·‚’ÛÁt€­äƒ˜n÷c+IéÖ³Z‰FÉ`g‰``É˜åw=Ëï|Šñ(şù`L·tL·ØJ>%÷r¢Yñ¿œ—Œ)ú¿?BÑİ#`yÏg¡¸ÇP(¾ãqL·ß]L·[(İú²h¡ÂIÆŞ“E¿|	ŠzeÂò»†cº=…­ä“P¢¥[÷,Z¨°dLá}¯Aá½¯@Ñ¯^J·åw?²=ƒ­ä-İX´PaÉoï¿€÷¾7 ğ×c ğÑÓíî°•ÄtóJŒ-Ñøæ¦×¢Lß…Y2fYßñàíóWğŞÿg”í5”í”Ó­×‹ØJRº=;¢q’¹¤l¿§ÛÀ…S2-m
-,ë;–=ğ&x{½˜n÷bºıj¶’‚¢»FäÆŒhœf™XÈÇÃH¶0IÆ,íç†¥iSaÙƒ“P6-İr0İ²ÁûËQ¹Å÷	ÑX²@t¯—d,Ú€™°´ß[°ô¡<X–6Óm,í3®xéıc“…$úEcP¨WAJö¬”­“æ“‡óÓ—˜KûÏ€Oúåmòö”jğÅ…U#˜ªV¢±h÷Ä!ì‡9Şùø“zl:™Ôµ»şÕögpğÚî°¯u7ØÕ2v4ï[šv„ÛÁª×‚7±%,¬ßæÅ7‚ü+¯©õêC¢ÕNÀ¢•cm•ë´Æ¢j`µïñêé=ÁJ´(ÚJm™A´)Á‹V[Äã:ØíŞ‰Šö!ŠöŠ6+4ÑêŠaj.k‘òD ¢-õ‰ÖTŠ–“ƒmíÍ®¢XJ4†qa%ÎkqÃs‡Ú¦ö'Úf­´Q;X!E+¢ÍB´Ïoqz¡¸5ÖÖhs	VC¬ÎË[¦ÌúºM÷ÿVF´¹R´Iˆ¶²«kåï‰»Q€z"a˜XWbµévY\ÂfÿîO´O¥hsP´(ZŞ•	~Åúgw×¿¼)®Oßl+^ì'z  ×ÉKÄ8§ÛUXíúÕK| ´ÙŸ]­¬GÑJ¤ht¢}Ü¦®^.XİÕµùİN®‰O5¿¡{¤`µÃjŠ‡u)Ã02mja5Àêør|Ó¡ë·;¬‰öÉÕ-áŸha~£x(ëVãpQ×ÇãÚ‰?Ş'îD:aµÂJÄª'åª!üÂ0Ì%R¸Nš½º0±Õ?çÕo¶9?¡á?_KˆÏÑRôÃ÷’°Z`]-Gö5o†©!j‚Õ–RNËvğ2úL¤ËÅ0™™™`ñ^¨0K¦•Å{á‚aX¶ $c˜	&¤äææ¦?~Ü›o¾¹Â²ù•ŒaP¤æ(Ò=x|ešƒÇ-XğS%~ÆŸdË5åZ…ÇX®BaOãq,‹†0L°"Yñİwßùd¶Á­#Ã¢N´˜<aÔ.$´ÓHµÍºœÇûŒaÏè4N´°o…ëæÖŒ¶5o¦”ÍI¢y½^˜?¾ïñ´iÓ`ÇğÙgŸibÁ©S§¨"R4µáŸÜÚ6¦á¶1C·ßu¦¶ÍmRfvö§Ê´K´£GÂ×_í{\PP ÄÙ³g}Ïóòò€Ø¹sg„µj+\]ªeŠØ…‘»õ{{gZ´™™~¶n»h[·n…Ó§Oû—––Â÷ßÄ¬Y³|IGGV¢©ï¥\·t™¿Ï`¬2TD'<¡TÓ·;Eèó$«¢Aéµÿ~øòË/X²d‰O0bÎœ9‘%šúNrÔ†şr|Ck©}÷ô”Î-¢Fím\îgŸH*b•Û!ÚÜ¹sğx<¾s`‹/†3gÎÀ?şñøüóÏáÛo¿¼+¢ZGKmÚ®:)_ÔÆøQCIDmŸáˆ§"Ae©µšM¢Mš4É×.nŞ¼ˆ3fÀîİ»áàÁƒpèĞ!Ø·oŸ#SÇ@…¡¤2EHDÃÄ¢S4‚€ÿ2OÊhı å,“¢eØhT‡ö­Ó´µÚÚµkáÜ¹s¾¡Èºuë"G4•^à§d›®RO®ß25£J4F+j}°2­~+W…h4Î'h}FÏ,X |ğAD°&iLë1‰l½F©LëãğQë>¬Y÷É×4FEëĞ!G8=“8µ•TÆ–È ”šTÚ(MI2:§&Çú´6£]a`òäÉ•h”îTşZníô	=VB*AÃ$ZM¬—°N`¡èµQò3²lv¨"g¢ëÖŸ1ò5Éô'ecıÊú®*:ÕARiïË³L×RzÕÚ.ä[†U¤GƒhªeÈ²¥ı´ˆj1,Û›0§•Å…Ûâ¿5Cµ|­cğ¶N £XÃ±’e=uĞ$](¸İn´lõ–k}¹Ÿ)ŸG“ËË øêıè¡»N-Xõ…™zX%Ñ(šÇxâ’Ú«KœX4-„4ûA&˜Wü¶‘ÕÊ¸ÎQ—8ù¿~ĞNÑHt;+ÂE£sr$ÚY–â¬Ù¢b¦†æ*ÓŸÏÒÖ:œh
-¼7ˆ…(%)Â¼V;‹5N(˜(­ŒÄ1Œc]M7v/S¢ÌÄ‰[¡x÷a½„’ÌÃ[lã›ó˜1&•Åø~•|ÿ`u]£™…2 eÊÑË…Ú¥OÖ¢1§&İnå„GŠPÀ£,Z¥dKÑ½÷¶¢E‹¶+Q˜i‚õµN´n"$†íÖ‹XwÈ2^-2Ã‘5Z”Lóí#:Z}¦–3¢UgFï‰§e¢™SŞ^£1,›¢&Ö]º«÷ï’¯	Ív†a†a†a2°¦ŠÊQk¡üg€aX25µ’’Uåecf˜d³–Œj¬¨ÃÔ´Í~É†e³_2†aÙì—ŒaX¶ª•ŒaX¶7D¸`F­ÉLm¤0Kk²}óÍ7®6Ò.mjJRZ^zû¾SÇµï;eÙõ}¦‚·ş~ ²dµfëş‡dcÑ’~ënŞ±ÿŒ{:˜şb‡şoÍIê÷Ö–¹!)mV$=˜(Ö É ãÂ…ãE °doXL#í€Eë80*ÖªgèøğLè8€jtè?:ô{üˆFïYÕé¤‡Ücmm6–" X2Ë‰[„­ÓÀ|¸X³ Ñ¬8sî;Ÿl6ˆvÌôÉ¢C6 QÃ,Y:(Jtíã‡Â“áW2kÙÃ¢Y·¶‰FB"Ùnæ¡“aÌR¶(Œ-H$]‚í3®×hdJÆc¥ÊŠvÂ°h£§¯†ô1K|¢İ6øX´rÌùt«&ú÷i*'EË2N¥J¾JBRÉtT‰¨“˜ZTÛwzMX´ûÁÚ-}¢=‘ó)å'ÏùD»ùÑY@|¼æ+ÇZG)€FK?¯§0µ´b¶­;½Æ&,ÚÅ;áHùŸhî‚Mğíùï¸{è\xtôB ²g¬r ÑLÉõ™AÀñÈ¡¢œ ™¨å”É˜®ŞSâ:¾ÓktÁ¢½2s·zÖoı–®ßÄ³oz!{æj x~¾¢™R(İßÚMo%š”3¾—Ù¼ÓkXaÑú\Ä#YùÎ=5Îÿ>~f/Şïv8uæ<tzhZ•·$„•H”rz­†*ÖW¨õïôVX´.ÎÆvñ˜çİÄ/ş0–—íƒÛÁ¦ÿ‚U›ö;2u$qçË¬>óYèr+¢r§W‹¶mÛ6ª*ïoùê(9v†Ê7ŞŸ0o#œ8ı-Ã¡È¤÷78 š)­zW2õ’<mª]¨lh!ŠwzeÑvìØcÇõUiii•‰6wé6 h}F¢ı>{	h<öÊ¢ª>a­Ú8Eª¿’Bªñ¿EJJ¡,‰Ò^Y´]»vÁ«¯¾
-Ã†ƒ¬¬,xüñÇaİºuU!GCÉöÂ(÷JŸh7?6NãÚì‡?B—Ó«<ÑH$_	ød5¾¥;½²h%%%Ğ½{w(,,„'NøD=z4ÁbêÊ‚'İBÜršÙ«¥}k4£F®@G'E£ô"±FŒ{öì#G@^^dddÀ¢E‹bæZGÅpµF–U/4xg¿hŒŒë2::½F[¿~=4^ıuØ¾};œ<yp#t2d,^¼öïßõ‰fXCe¹¦ki<é-)±Ø!#ÏÖƒv~ƒGÂÔqÔ¨Q0|øpßºíÜ¹s¾dëÓ§íİÕ¢‘ Fa‚¼T+Ëâê$µM¢1ú	M~è¹Ó¢}ñÅƒö‰Fh½zõª¢Ñ%\x+„³ÁßDIÂ?»O/šÅåUJFÍ¾+ªµñ+µ)‘Åå4nã9z=¢mÜ¸†
-#G„6ÀÙ³gá½÷Şóµ“'¬­#ŞÂÀİqà¬Ògœç­H2”t\¨“8!^I’j®H	åp$•J>V°h¶\Q4^­ì_e é}ı%4”ˆJĞĞ†!4Şæ™g`Ë–-¾ÉãôéÓiúH²Ùzs~óV«¤ş3îë0`úKIıİóP˜m¶ßœÇ:UâC\ßÍ6X¬H·A4F÷[Iz] ]^£¦–Á‹Fc}ï/\¸ÎŸ?ï“î¹çƒ%K–ÀŞ½{«üvsiišt»¹öæJê;u|»¾“‹Ú÷™rÔFÑf‡z‹Ù›eQ²Uğ÷ĞzÛ0ud´áV¦ŸKfÒ½¤E´;wú¦O<ñŒ3Æw,..ó	kÆpeI²°ÍƒU®ougéŞ¯hm‡•CEé§_«/š’-77rrr`ÅŠôZ5aT•cßRš•é%×xi$«-<SÇ­[·Òãê)Ã¦‹½OGó97óëaMUõaHcbùiËºÕtÑâó,ÃçÎ¬æ‘½¦Œ~î÷À¢1ŒAŠÌJ¶—9Æ1>IHi¨û\9‹f€ásgê$µõÀ„>o\§i†n(’Â¢1or0‹ÆğÄì,Í/Ã‰Æ0 P«®°aÉğâêO±–Ù$‹Æ0(ØØ ‹Æp’áf×auGÁÙ#‹Æp»ø	ÖQ­V>şZŠ6—ŠĞa–$:Ùšàã±a–ŒaX2ƒlm„=pëÈ°d6·‹,ZH'çc–ŒEcÑ–ŒEcX2-XAÜˆ„aÉX4ç7"aX2ÍùHœ‡%Sûi¥Ê}°ö"L°hÎoDù°dj› ŞRªb¬ãvîiÌ¢9¿I&±×‰_
-´9H’]RR%ËÍÂsI*a€E‹‚Hì@íK]NEÿÎ*”¬ ÔB©Ş®É¨õ#³Q¨|¬M„-
-6"±÷&½*’ŞÏ]²Ã¾Ş”	¿«d³9ÉÀBø³³ø<Z$mDb?Z«*«¼‚!OyÓìvPÌÆç—aQ’E¿hàŒh¡­‘Ø¿®TÑcJTğn}ª…1ÍVÈû‘R%k$*‹F›]Ğ¦‰½‘Ø¿®4”[÷^ÉHò…S4)ÙG(X!©¢Hˆ¢Ñ¶M´}mãDÛ9YˆæÌİÀ¢`#»N®§Ö‡åZšií+=v¶k`ÑhBı†„´A!ÉvÑlx?ò7"±ÃšÌ8ÔÉme™–¸ÎˆÆ­#m¡K[éÒ–º´µ.m±K[íÒ–»´õn4ˆæüF$‹†›ÂÓæğ´I<mO›ÆÓæñ$m&o!Zğ-c¨ïGÁF$¡À¢Ñ‰iY›'ğòåæá©ú÷ğñqPñUÕ:îß¿<4È'ÛÙ³gaÃ†0räH:t(lÜ¸‘¤ŠÑœßˆÄ8ÑâÕá
-ÃX4W/¦y‡ûEs»İĞ«W/ÈËËb×®]0xğ`ÈÎÎëÔQJaz-ä÷c-Õ˜N”`!ÒA‘eĞşÖ‘DëÓ§O´sçÎùD>|8Œ5
-¶mÛÆ¢E&ŒqöJÑrM×@*Òu¢Û/šj/^C†	&ÀÉ“'aûöí4môµ“ë×¯gÑ"^£˜Åt«$œï/Z´222|ÉväÈØ³gŒ1FÙÃØ„ñ3ÜÈÂ"ZjÀ(¡N’T'D;pà ‘X4}¤É#õ}ãı’’Ñ‚aÑôbQ’‘xúVR/!­İôÏ¼‹Ò‹DËÊÊ‚aÃ†ÑxŸÖm-Ã¢õÖRJ›*’|XD²6a4¶™N_ëXZZ
-cÇõÕ;x“‹È…ESÃ•T†Ñ}ºON½KM­§Ã°hæscñjto’0Y;Ú ï&}0V’|êœšùQø÷Ñì‡aÑ´´Ò°°€E†EK¯`tŸjí8·AÀ°h²UÌ’“Ç\?÷ôğ·>cÑ†ïb?Ã¢E‹Æ­#Ã°hQİë^¬Ñ¸^„õˆnä*¬Î¡Jåç{cX4$£“şXå "*À,•5Vß7
-º\TßÜAÉêë÷5°-èN Ô– @ÑS0¼ÉE5­ñ*)[ópŠf%n%R7“k7 xñÛ61ª],Äc7¹kÉ|hã"-ÑH0,/IFÂ	FTY²MRªSø¼ \‚ßW’EhÔÊbXiÚcÁˆj°µ.K¦K°oå/ª•Ü„á”s v>î‡‡Öø|ÖA|ŞëÖpµ(¿[/£lmËD„Âpò_­—Ì Û_D%Ğ‰Y‹dÂÇç ¶`2ÖGRèáI4³XÔ>b	şÚLŸ¹¶KÂ°dã‚˜§`Å£¥º´|Ÿ¿!åx+¢i­"C¯97uòÒgäQ±²1,™Y4”ê	)×Kòõ†øø¬‡¥h;ÃÑ:JILé¥M +øgŒSK)Ÿ[D,KfN‹™R´f´>Ãã#4PÁãµXÃ41¯ÇÌícÏJ&qk-åDÄÂ°dfÑ6ëÒâ!ZŸé÷]4•BtôÓR
-ZN~­ù¢1,™Y´ğPW¦Î_±6êR(/'¬)ÉÀ’È˜\šXZ{©­ÕÂ$ŸKÃ–¥~‘c°>Â:$Â
-KF€‚’æ·r¬¿ZNSğµVøxG¨‰FÂèdñú©İêœšIÎ4a 0ÑX¨(T[¬(ÓŸ±
-±Ùprš%sğ„5%¹m4·‡Fy´Q¾ågŒ\\wÆzešˆµëtÕ\nÅ’9y­£.­¬Ï±©Ï©vÒüç±hş¿ÄsRVK¨íÁÊ09Zƒ¢,z$s>Ñh’hı½ªé£J>ù\µœnz®=ö#ˆı¢)Ù-ÇàkJÔHæ¼hÓ	iëöq·^>ı@DûsESkÌ­ˆ:º£Z2Õe¼"‡M‡Ã šÚ
-¹:Ã¢Y¸hªµ¡–DwÅAyÔIf}r¬ûtò
-}­Ìp¢™[AÖ´*¼
-ÿrG$³–¯1Ö¯å^u‹«×iŞñó”\ĞşW÷ÚA¬İÚkx<.Ÿ°[4J/%–ºU5•Ç¬%cİ‰Ñe«r ú[˜éşNÔ³ê3öµ ahM¯Uòş9ÚúNƒËé™Uj£ÿİx¬C²…K2†íÏZ["Ÿ/Ğµ*HÑî–ÏGÙ’hæ+<?•r$ŠåúÎJF‹–ñ¨üw=‡‡z$[8$cX´åº;†2½ ­ƒ­©|‘…h¶Ü‰I¶DYeQ
-ÛÓreVwz¢ä6\5.^£á¡†iJõsŒ5õn||Ä®ÖQwaj¹?$­-DËğ'2%£11Bo“©G h7†	ã¬í¥H“  .Vm|­‘|mœ~óx»M·¦òXIrD0XVèı-XÓä÷vï§ËÖ©»<ŞŠõ€|ÜYJ•f‹hæµUÏŠÆş$¤óŸá o?Y¾æ’r=­İŸ‚Ğ’Í®Ö$€ÅdÑ(zÏJ¬÷Ò´{ZX*aÑJR½‡Uhxm¥]‰&%O#—ˆÆ°hêg:©vÀ	-áä@ÏØ š`‰i%¬\eHùäûngDcX45¹I¶‰º×®×Öi6\ëhPì&),J/e†¿©%É‘k4†E“S¿2<n×½ö¥|í+®u4;Ë	ğ­2ë‰¢y²s¢1|Q1]éØÍ7eû§H¨ìIm•†Q/ÃM&ô„!!Í)¨ZGBÊ˜ ¥¦ö^¬%Ã‰fÆAÕë&”|±5aøVæ0%„[ô4<Ì0@Z,L¾9ÏkÂÃğíæVUİíæ†o z½¼êØ*¼*Ã0(^+¬Pºl¬%X‡E(0Ã0Ã0Ã0ÿ'¤;RFÄ™    IEND®B`‚
-------MultipartBoundary--zAuERlvKmVCOj63x0M933dFLsU0NeM3o77OpQpSGUJ----
-Content-Type: image/gif
-Content-Transfer-Encoding: binary
-Content-Location: https://c1-word-edit-15.cdn.office.net/we/s/161571441002_resources/spiral.gif
-
-GIF89a  €  RÎBÿÿÿ!ÿNETSCAPE2.0   !ù
-  ,      `§—Q !ù
-  ,     `§—Q !ù
-  ,     `§—Q !ù
-  ,     `§—Q !ù
-  ,     `§—Q !ù
-  ,      `§—Q !ù
-  ,      `§—Q !ù	
-  ,       Œ ÈİªœdpÍ›,Ş¼û†âH–æ‰¦êÊ¶î; !ù	
-  ,       6Œ ÈİªœdpÍ›,Ş¼ïèQV¤G‚¥¶îSl7B«9cişññÿÈ©.'‘Mw4'ËŒ£  !ù	
-  ,       2Œ ÈİªœdpÍ›,Ş¼ïèQPˆTd©êÊ¶Fæ[´œv°Ë?yÆ™„"±øÛ
- !ù	
-  ,       *Œ È­Úbz2ÂŠ³>w¿åQÛ4–æ‰Jö­¦ò¹µ-â÷«ÇÈ¾(  !ù	
-  ,    
-    Œ xªœŒ³Îİbún†"‚q’Y’ßÈª^jtÙR  !ù	
-  ,    
-   Œ xªœŒ³Îİbún†"‚q’Y’R  !ù	
-  ,    
- 
-  Œ xªœŒ³ÎİbúnV  !ù	
-  ,      `§—Q ;
-------MultipartBoundary--zAuERlvKmVCOj63x0M933dFLsU0NeM3o77OpQpSGUJ------
