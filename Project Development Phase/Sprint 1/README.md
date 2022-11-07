@@ -1,5 +1,4 @@
 # IBM NalaiyaThiran Expense Tracker
-@kiridharan
 :heavy_check_mark: Auth and home page is done
 :heavy_check_mark: Add expense page is done
 :heavy_check_mark: Login and Logout is done
