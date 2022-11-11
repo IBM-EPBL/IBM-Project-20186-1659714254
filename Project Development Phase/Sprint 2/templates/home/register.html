@@ -1,0 +1,135 @@
+{% extends 'base.html' %}
+{% block body  %}
+
+<div class="">
+    <body class="">
+        
+                <main>
+                    <div class="card ml-6 mr-6 mt-6" style="margin-bottom:15px;">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-7">
+                                <div class="card shadow-lg border-0 rounded-lg mt-5">
+                                    <div class="card-header"><h1 class="text-center has-text-centered">Expense Tracker</h1></div>
+                                    <div class="card-body ml-6 mr-6">
+                                        <form action="/handleSignup/" method='post'>
+                                        {% csrf_token %} 
+                                            <div class="form-row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label class="small mb-1" for="uname">User Name</label>
+                                                        <input class="input is-link" id="uname" name="uname" type="text" placeholder="Enter User Name" required/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                             <div class="form-row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label class="small mb-1" for="inputFirstName">First Name</label>
+                                                        <input class="input is-link" id="fname" name="fname" type="text" placeholder="Enter first name" />
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label class="small mb-1" for="inputLastName">Last Name</label>
+                                                        <input class="input is-link" id="lname" name="lname" type="text" placeholder="Enter last name" />
+                                                    </div>
+                                                </div>
+                                            </div>   
+                                                
+                                            <div class="form-group">
+                                                <label class="small mb-1" for="inputEmailAddress">Email</label>
+                                                <input class="input is-link" id="email" name="email" type="email" aria-describedby="emailHelp" placeholder="Enter email address" required />
+                                            </div>
+                                            <div class="form-row dropdown dropdown is-active">
+                                                <div class=" dropdown-trigger">
+                                                    <div class="form-group">
+                                                        <label class="small mb-1" for="inputprofession">Profession</label>
+                                                
+                                                        <select class="dropdown-menu" role="menu" name="profession" id="profession" >
+                                                            <option value="Employee">Employee</option>
+                                                            <option value="Business">Business</option>
+                                                            <option value="Student">Student</option>
+                                                            <option value="Other">Other</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <br><br>
+                                            <!-- <div class="dropdown is-active">
+                                                <div class="dropdown-trigger">
+                                                  <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
+                                                    <span>Dropdown button</span>
+                                                    <span class="icon is-small">
+                                                      <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                                    </span>
+                                                  </button>
+                                                </div>
+                                                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                                                  <div class="dropdown-content">
+                                                    <a href="#" class="dropdown-item">
+                                                      Dropdown item
+                                                    </a>
+                                                    <a class="dropdown-item">
+                                                      Other dropdown item
+                                                    </a>
+                                                    <a href="#" class="dropdown-item is-active">
+                                                      Active dropdown item
+                                                    </a>
+                                                    <a href="#" class="dropdown-item">
+                                                      Other dropdown item
+                                                    </a>
+                                                    <hr class="dropdown-divider">
+                                                    <a href="#" class="dropdown-item">
+                                                      With a divider
+                                                    </a>
+                                                  </div>
+                                                </div>
+                                              </div> -->
+                                            <div class="form-row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label class="small mb-1" for="inputincome">Income</label>
+                                                        <input class="input is-link" id="income" name="income" type="text" placeholder="Income" required/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label class="small mb-1" for="inputsavings">savings</label>
+                                                        <input class="input is-link" id="Savings"  name="Savings" type="text" placeholder="Amount to be saved" required />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label class="small mb-1" for="inputPassword">Password</label>
+                                                        <input class="input is-link" id="pass1" name="pass1" type="password" placeholder="Enter password" required />
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label class="small mb-1" for="inputConfirmPassword">Confirm Password</label>
+                                                        <input class="input is-link" id="pass2" name="pass2" type="password" placeholder="Confirm password" required />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class = "btn">
+                                            <div class="form-group mt-4 mb-0"><button type="submit" class="button is-success">Create User</button></div></div></div>
+                                    <div class="card-footer text-center ml-6">
+                                        <div class="small"><a href="/">Have an account? Go to login</a></div>
+                                    </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            
+                   
+                </main>
+      
+    </body>
+</div>
+
+{% endblock body %}

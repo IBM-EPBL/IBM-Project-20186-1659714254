@@ -1,0 +1,27 @@
+{%  load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Home</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script> -->
+    </head>
+    <body>
+    <div class="messages" id="alert-message">
+  {% for message in messages %}
+<div class="notification is-danger alert-{{ message.tags }}">
+    <button class="delete"></button>
+    <span aria-hidden="true">&times;</span>
+    {{ message }}
+  </div>
+  {% endfor %} 
+</div>
+ {% block body %}
+  {% endblock body %}
+    </body>
+</html>

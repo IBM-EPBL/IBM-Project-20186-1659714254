@@ -1,0 +1,167 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+        <!-- <link rel="stylesheet" type="text/css" href="{% static 'profile.css' %}"> -->
+</head>
+    <body >
+        <div class="messages" id="alert-message">
+            <nav class="navbar" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                  <a class="navbar-item" href="#">
+                    <img src="https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/bc/a7/84/bca78422-ac30-5125-2daa-2f0be5e5a757/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-4.png/1200x630wa.png" width="100%" height="100%">
+                  </a>
+              
+                  <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                  </a>
+                </div>
+              
+                <div id="navbarBasicExample" class="navbar-menu">
+                  <div class="navbar-start">
+                    <a class="navbar-item" href="/index">
+                            <div class="sb-nav-link-icon"><i class=""></i></div>Home</a>
+              
+                    <a class="navbar-item" href="/profile">
+                        <i class="glyphicon glyphicon-user"></i>
+                              PROFILE</a>
+              
+          
+                    <div class="navbar-item has-dropdown is-hoverable">
+                      <a class="navbar-link">
+                        More
+                      </a>
+              
+                      <div class="navbar-dropdown">
+                        <a class="navbar-item"> 
+                          <!-- href="/weekly"> -->
+                          WEEKLY RECORD(need to wrok)
+                           <!-- <div class="sb-sidenav-collapse-arrow"></i></div> -->
+                       </a>
+                     <a class="navbar-item" >
+                     <!-- href="/stats" >  -->
+                         MONTHLY RECORD(need to wrok)
+                          <!-- <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div> -->
+                      </a>
+                        <a class="navbar-item" href="/tables">
+                            <!-- <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div> -->
+                            HISTORY
+                        </a>
+                        <a class="navbar-item" href="/info">
+                            <!-- <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div> -->
+                            Yearly Record
+                        </a>
+                        <hr class="navbar-divider">
+                        <a class="navbar-item">
+                          Report an issue
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+              
+                  <div class="navbar-end">
+                    <div class="navbar-item">
+                      <div class="buttons">
+                            <a class="button is-primary" href="/handleLogout">Logout</a>
+                            <div class="button is-secondary">
+                                <div class="small">Logged as:</div>
+                                {{request.user.username}}
+                            </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+<div class="container emp-profile">
+            <form method="post" class="box">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="profile-head">
+                                    <!-- <h5>
+                                         {{ user }}
+                                    </h5>
+                                    <h6>
+                                         {{ user.userprofile.profession }}
+                                    </h6> -->
+                                   
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        {% comment %} <input type="submit" class="profile-edit-btn" name="btnAddMore"  value"edit"> {% endcomment %}
+                        {% comment %} {% for x in add %} {% endcomment %}
+                        <div id="container">
+                        <button type="submit" class="profile-edit-btn" name="btnAddMore"><a href="{% url 'profile_edit' user.id%} "> Edit </a></button>
+                        {% comment %} <br><button type="submit"  name="btnAddMore"><a href="/index/ "> home</a></button> {% endcomment %}
+                        {% comment %} {% endfor %} {% endcomment %}
+                        </div>
+                    </div>
+                    </div>
+
+                <div class="row">
+                    <div class="col-md-8">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>User Id</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>{{ user }}</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Name</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>{{ user.username }} {{ user.last_name }} </p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Email</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>{{ user.email }}</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Savings</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>{{ user.Savings}}</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Income</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>{{ user.income}}</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Profession</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>{{ user.profession }} </p>
+                                            </div>
+                                        </div>
+                            </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+            </form> 
+			</div>
+	</body>
+</html>
+        
