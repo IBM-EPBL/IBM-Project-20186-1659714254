@@ -1,0 +1,202 @@
+{%  load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>Dashboard</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <!-- <link rel="stylesheet" type="text/css" href="{% static 'home.css' %}"> -->
+  <!-- <link rel="stylesheet" type="text/css" href="{% static 'addmoney.css' %}"> -->
+  <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet"
+    crossorigin="anonymous" />
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script> -->
+</head>
+
+<body class="sb-nav-fixed">
+  <div class="messages" id="alert-message">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="#">
+          <img
+            src="https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/bc/a7/84/bca78422-ac30-5125-2daa-2f0be5e5a757/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-4.png/1200x630wa.png"
+            width="100%" height="100%">
+        </a>
+
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="/index">
+            <div class="sb-nav-link-icon"><i class=""></i></div>Home
+          </a>
+
+          <a class="navbar-item" href="/profile">
+            <i class="glyphicon glyphicon-user"></i>
+            PROFILE</a>
+
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              More
+            </a>
+
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="/weekly">
+                Weekly
+                <!-- <div class="sb-sidenav-collapse-arrow"></i></div> -->
+              </a>
+              <!-- <a class="navbar-item" >
+                             MONTHLY RECORD(need to wrok)
+                               </a> -->
+              <a class="navbar-item" href="/stats">
+                <!-- <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div> -->
+                Stats
+              </a>
+              <a class="navbar-item" href="/tables">
+                <!-- <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div> -->
+                HISTORY
+              </a>
+              <!-- <a class="navbar-item" href="/info"> -->
+              <!-- <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div> -->
+              <!-- Yearly Record
+                            </a> -->
+              <hr class="navbar-divider">
+              <a class="navbar-item">
+                Report an issue
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <a class="button is-primary" href="/handleLogout">Logout</a>
+              <div class="button is-secondary">
+                <div class="small">Logged as:</div>
+                {{request.user.username}}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div id="layoutSidenav_content">
+      {% for message in messages %}
+      <div class="alert alert-{{ message.tags }} mb-0 alert-dismissible fade show my-10" role="alert">
+        <strong>Message :</strong>{{ message }}
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      {% endfor %}
+      <main>
+        <div class="ml-5 mr-5">
+          <h1 class="mt-4">Expense Tracker</h1>
+          <!-- <img src="{% static 'img/unnamed.png' %}" alt="logo" width="100%" height="500"> -->
+          <div class="box">
+            <h4><b>My Wallet</b></h4>
+            Add Expense or Money
+            <div class="buttons"><button class="button is-info" onclick="location.href='/addmoney';">Add
+              </button>
+            </div>
+          </div>
+          <br>
+          <br>
+          <div class="card ml-5">
+
+            <div class="card-body">
+              <div class="table-responsive">
+                <table class="table " id="dataTable" width="100%" cellspacing="0">
+                  <thead>
+                    <tr>
+                      <th>What you added</th>
+                      <th>Amount</th>
+                      <th>Category</th>
+                      <th>Date</th>
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {% for info in page_obj %}
+                    {% comment %} {% for  info in add_info %} {% endcomment %}
+                    <tr>
+                      <td>{{info.add_money}}</td>
+                      <td>{{info.quantity}}</td>
+                      <td>{{info.Category}}</td>
+                      <td>{{info.Date}}</td>
+                      <td><a href="{% url 'expense_delete' info.id %}" class=" btn btn-danger ">Delete</a></td>
+                      <td><a href="{% url 'expense_edit' info.id %}" class=" btn btn-success ">Edit</a></td>
+                    </tr>
+
+                    {% endfor %}
+
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <!-- <nav aria-label="pagination is-right">
+                        <ul class="pagination align-right float-right mr-auto">
+                            {% if page_obj.has_previous %}
+                            <li {% if page_obj.number == 1%} class="page-item active" {% endif %}>
+                                <a class="page-link" href="?page=1" tabindex="-1">&laquo; first</a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="?page={{ page_obj.previous_page_number }}">Previous</a></li>
+                            {% endif%}
+                            {% if page_obj.has_next %}
+                            <li class="page-item"><a class="page-link" href="?page={{ page_obj.next_page_number }}">Next</a></li>
+                            <li class="page-item"><a class="page-link" href="?page={{ page_obj.paginator.num_pages }}">last &raquo;</a></li>
+                            {% endif %}
+                        </li>
+                    </ul>
+                </nav> -->
+
+            <br>
+          </div>
+          <div class="ml-6 mt-6">
+            Showing page {{page_obj.number}} of {{page_obj.paginator.num_pages}}
+          </div>
+          <nav class="pagination  ml-6 mr-6 mt-6 mb-6 is-right  is-half is-centered " role="navigation"
+            aria-label="pagination">
+            {% if page_obj.has_previous %}
+            <!-- <li {% if page_obj.number == 1%} class="page-item active" {% endif %}>
+  </li> -->
+            <a class="button is-link mb-6" href="?page={{ page_obj.previous_page_number }}">Previous</a>
+            {% endif%}
+            {% if page_obj.has_next %}
+            <a class="button is-link mb-6" href="?page={{ page_obj.next_page_number }}">Next page</a>
+            <!-- <li class="page-item"><a class="page-link" href="?page={{ page_obj.paginator.num_pages }}">last &raquo;</a></li> -->
+            {% endif %}
+          </nav>
+          <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+          <script type="text/javascript">
+          </script>
+          <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"
+            crossorigin="anonymous"></script>
+          <script src="js/scripts.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous">
+          </script>
+          <script src="assets/demo/chart-area-demo.js"></script>
+
+          <script src="assets/demo/chart-bar-demo.js"></script>
+          <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" crossorigin="anonymous">
+          </script>
+          <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous">
+          </script>
+          <script src="assets/demo/datatables-demo.js"></script>
+</body>
+
+</html>
