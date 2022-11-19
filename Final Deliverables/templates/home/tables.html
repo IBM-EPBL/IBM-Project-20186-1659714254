@@ -1,0 +1,142 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <!-- <title>Tables - SB Admin</title> -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+        <!-- <link rel="stylesheet" type="text/css" href="{% static 'home.css' %}"> -->
+        <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet" crossorigin="anonymous" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="sb-nav-fixed">
+        <div class="messages" id="alert-message">
+          <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+              <a class="navbar-item" href="#">
+                <img
+                  src="https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/bc/a7/84/bca78422-ac30-5125-2daa-2f0be5e5a757/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-4.png/1200x630wa.png"
+                  width="100%" height="100%">
+              </a>
+      
+              <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+              </a>
+            </div>
+      
+            <div id="navbarBasicExample" class="navbar-menu">
+              <div class="navbar-start">
+                <a class="navbar-item" href="/index">
+                  <div class="sb-nav-link-icon"><i class=""></i></div>Home
+                </a>
+      
+                <a class="navbar-item" href="/profile">
+                  <i class="glyphicon glyphicon-user"></i>
+                  PROFILE</a>
+      
+      
+                <div class="navbar-item has-dropdown is-hoverable">
+                  <a class="navbar-link">
+                    More
+                  </a>
+      
+                  <div class="navbar-dropdown">
+                    <a class="navbar-item" href="/weekly">
+                      Weekly
+                      <!-- <div class="sb-sidenav-collapse-arrow"></i></div> -->
+                    </a>
+                    <!-- <a class="navbar-item" >
+                                   MONTHLY RECORD(need to wrok)
+                                     </a> -->
+                    <a class="navbar-item" href="/stats">
+                      <!-- <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div> -->
+                      Stats
+                    </a>
+                    <a class="navbar-item" href="/tables">
+                      <!-- <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div> -->
+                      HISTORY
+                    </a>
+                    <!-- <a class="navbar-item" href="/info"> -->
+                    <!-- <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div> -->
+                    <!-- Yearly Record
+                                  </a> -->
+                    <hr class="navbar-divider">
+                    <a class="navbar-item">
+                      Report an issue
+                    </a>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="navbar-end">
+                <div class="navbar-item">
+                  <div class="buttons">
+                    <a class="button is-primary" href="/handleLogout">Logout</a>
+                    <div class="button is-secondary">
+                      <div class="small">Logged as:</div>
+                      {{request.user.username}}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+            <div id="layoutSidenav_content">
+                <main>
+                    <div class="container-fluid mt-6 ml-6 mr-6">
+                        <form action="/search/" method="get">
+                         From : <input type="date" name="fromdate" required/>
+                            To : <input type="date" name="todate" required/>
+                            {% csrf_token %}
+                            <input type="submit" value="search"/>
+                            <a href="{% url 'tables'  %}" class="btn btn-success" role="button" aria-pressed="true" style="height:32px;width:100px">Search all</a>
+                            </a>
+                            </form>
+                            <br/>
+                            <br>
+                        <div class="card mb-4">
+                            <!-- <div class="card-header">
+                                <i class="fas fa-table mr-1"></i>
+                                DataTable 
+                            </div> -->
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                       <thead>
+                                            <tr>
+                                                <th>What you added</th>
+                                                <th>Amount</th>
+                                                <th>Category</th>
+                                                <th>Date</th>
+                                            </tr>
+                                </thead>
+                                {% for money in addmoney %}
+                                <tbody>
+                                            <tr>
+                                                <td>{{money.add_money}}</td>
+                                                <td>{{money.quantity}}</td>
+                                                <td>{{money.Category}}</td>
+                                                <td>{{money.Date}}</td>
+                                            </tr>
+                                {% endfor%}
+                                </tbody>
+                            </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
+        <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
+        <script src="assets/demo/datatables-demo.js"></script>
+    </body>
+</html>

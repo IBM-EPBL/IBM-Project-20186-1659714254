@@ -1,0 +1,4 @@
+applications:
+ - name: expensetracker
+   random-route: true
+   memory: 512M

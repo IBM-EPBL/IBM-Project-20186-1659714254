@@ -1,0 +1,68 @@
+{% extends 'base.html' %} {% block body %}
+<body class="has-background-link is-fullheight hero is-centered">
+  <div class="is-fullheight hero is-centered">
+    <div class="column is-4 is-offset-4 is-three-fifths">
+      <div class="box">
+        <div class="title">
+          <h1 class="title is-secondary has-text-centered">Login</h1>
+        </div>
+        <div class="is-align-content-center">
+          <form
+            action="/handlelogin/"
+            method="post"
+            class="is-align-content-center"
+          >
+            {% csrf_token %}
+            <div class="form-group">
+              <label class="has-text-primary mb-1" for="loginuname"
+                >Username</label
+              >
+              <input
+                class="input is-primary"
+                id="loginuname"
+                name="loginuname"
+                type="text"
+                placeholder="Enter user name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label class="has-text-primary mb-1" for="loginpassword1"
+                >Password</label
+              >
+              <input
+                class="input is-primary"
+                id="loginpassword1"
+                name="loginpassword1"
+                type="password"
+                placeholder="Enter password"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <div class="custom-control custom-checkbox">
+                <label
+                  class="checkbox has-text-primary"
+                  for="rememberPasswordCheck"
+                >
+                  <input type="checkbox" id="rememberPasswordCheck" reqired />
+                  Remember password
+                </label>
+              </div>
+            </div>
+
+            <button type="submit" class="button is-success">Login</button><br />
+
+            <a class="small" href="\reset_password">Forgot Password?</a><br />
+
+            <div class="small">
+              <a href="/register">Need an account? Sign up!</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+{% endblock body %}

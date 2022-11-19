@@ -1,0 +1,27 @@
+name: Build Docker Container & Push to Registry(IBM Cloud Foundary)
+
+on:
+  workflow_dispatch:
+  workflow_call:
+  push:
+    branches: ['main']
+  pull_request:
+    branches: ['main']
+jobs:
+  test_django:
+    uses: kiridharan/expense-tracker-prod/.github/workflows/test-django.yaml@main
+    
+
+  deploy:
+    needs: [test_django]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Deploy to IBM Cloud Foundry
+        # You may pin to the exact commit or the version.
+        uses: IBM/cloudfoundry-deploy@master
+        with:
+          IBM_CLOUD_API_KEY: ${{ secrets.IBM_CLOUD_API_KEY }}
+          IBM_CLOUD_CF_API: ${{ secrets.IBM_CLOUD_CF_API }}
+          IBM_CLOUD_CF_ORG: ${{ secrets.IBM_CLOUD_CF_ORG }}
+          IBM_CLOUD_CF_SPACE: ${{ secrets.IBM_CLOUD_CF_SPACE }}
