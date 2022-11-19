@@ -22,6 +22,14 @@ python manage.py migrate
 
 ```
 
-# Todo 
 
-:white_check_mark: Styling 
+
+
+
+## Video Link
+[Vedio]()
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://drive.google.com/file/d/1j2XymZpYW7hsaXJaEovXglOz0gDXE-9t/view)
+
+
+## Document link
+!
